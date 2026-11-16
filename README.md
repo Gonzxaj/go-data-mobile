@@ -102,4 +102,5 @@ kotlinx-serialization 1.13.0, kotlinx-coroutines 1.11.0. `compileSdk` 37, `targe
 
 ## License
 
-The Lumo UI-derived code in `lumo/` is under the Apache License 2.0.
+[MIT](LICENSE). The Lumo UI-derived code in `lumo/` keeps its original Apache License 2.0
+(see `lumo/NOTICE.md`).
