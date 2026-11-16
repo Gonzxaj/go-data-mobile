@@ -1,22 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- go-data's "GD" monogram (as on the web console), stroked, inside the 66dp safe zone of the 108dp adaptive icon. -->
-<vector xmlns:android="http://schemas.android.com/apk/res/android"
-    android:width="108dp"
-    android:height="108dp"
-    android:viewportWidth="108"
-    android:viewportHeight="108">
-    <!-- G: circle of r=14 around (43,54), open at the top-right, with the bar back in. -->
-    <path
-        android:pathData="M52.9,44.1A14,14 0 1,0 57,54H47"
-        android:strokeWidth="6"
-        android:strokeColor="#FFFFFF"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
-    <!-- D -->
-    <path
-        android:pathData="M62,40H65A14,14 0 0,1 65,68H62Z"
-        android:strokeWidth="6"
-        android:strokeColor="#FFFFFF"
-        android:strokeLineCap="round"
-        android:strokeLineJoin="round" />
-</vector>
+<!-- go-data's round logo, inset so the circle fits the 66dp safe zone of the 108dp adaptive icon. -->
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/go_data_logo"
+    android:inset="21dp" />
